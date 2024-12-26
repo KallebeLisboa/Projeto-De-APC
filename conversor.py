@@ -13,14 +13,21 @@ def conversao():
         oleo = input("Quantos mLs de óleo serão usados: ").strip()
         print("=-"*15)
         if any(char.isalpha() for char in oleo):
-            print("Digite um valor válido sem letras")
+            print("Digite um valor válido sem letras:")
             continue
-        if " " in oleo:
-            print("Digite um valor válido sem espaços")
+        elif " " in oleo:
+            print("Digite um valor válido sem espaços:")
             continue
-        oleo = float(oleo)
-        if oleo < 0:
-            print("Digite um valor válido maior que 0")
+        elif "," in oleo:
+            print("Digite um valores decimais use ponto: ")
+            continue
+        elif any(char.isnumeric() for char in oleo):
+            oleo = round(float(oleo))
+            if oleo < 0 :
+                print("Digite um valor válido maior que 0:")
+                continue
+        else:
+            print("Digite um valor válido:")
             continue
         break
 

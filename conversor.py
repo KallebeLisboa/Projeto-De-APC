@@ -39,4 +39,3 @@ def conversao():
     print(f"A quantidade de álcool é {alcool:.2f} mLs")
     print("-"*15)
 
-conversao()

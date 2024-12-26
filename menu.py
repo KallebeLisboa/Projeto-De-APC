@@ -1,4 +1,4 @@
-from conversor import conversao
+
 
 def menu():
     print('-='*30)
@@ -13,6 +13,7 @@ def menu():
         print("[2] Ingredientes")
         print("[3] Produção de sabão")
         print("[4] Finalizar")
+        print()
 
         #verificação de valor
         while True:
@@ -30,7 +31,8 @@ def menu():
                 continue
             break
         if decisao == 2:
-            conversao()
+            import conversor
+            conversor.conversao()
         if decisao == 4:
             break
     print("Obrigado pela atenção! tenha um ótimo dia.")

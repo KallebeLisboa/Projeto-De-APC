@@ -28,6 +28,9 @@ def menu():
             elif "." in decisao or "," in decisao:
                 print("Digite um valor inteiro: ")
                 continue
+            elif "/" in decisao or "*" in decisao:
+                print("Digite um valor válido: ")
+                continue
             elif any(char.isnumeric() for char in decisao):
                 decisao = round(float(decisao))
                 if decisao < 0 or decisao > 4:

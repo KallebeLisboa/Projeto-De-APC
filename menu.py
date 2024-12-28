@@ -1,4 +1,7 @@
-
+import informacoes
+import conversor
+import producao
+import finalizar
 
 def menu():
     print('-='*30)
@@ -7,44 +10,45 @@ def menu():
 
     print()
 
+    # Menu de opções
+    acoes = {
+        1: informacoes.informacoes_sabao,
+        2: conversor.conversao,
+        3: producao,
+        4: finalizar.finalizar_programa,
+    }
+
+    # Loop do menu
     while True:
-        print("Pressione: ")
+        print("\nPressione:")
         print("[1] Informações sobre meio ambiente")
         print("[2] Ingredientes")
         print("[3] Produção de sabão")
         print("[4] Finalizar")
         print()
 
-        #verificação de valor
         while True:
-            decisao = input().strip()
-            print("=-"*15)
-            if any(char.isalpha() for char in decisao):
-                print("Digite um valor válido sem letras:")
+            decisao = input("Digite sua opção (1 a 4): ").strip()
+            print("=-" * 15)
+
+    # Verifica se a entrada contém apenas números
+            if not decisao.isdigit():
+                print("Digite um valor válido: apenas números inteiros de 1 a 4 são permitidos.")
                 continue
-            elif " " in decisao:
-                print("Digite um valor válido sem espaços:")
+
+    # Converte a entrada para número inteiro
+            decisao = int(decisao)
+
+    # Verifica se o número está no intervalo permitido
+            if decisao < 1 or decisao > 4:
+                print("Digite um número válido dentro do intervalo (1 a 4).")
                 continue
-            elif "." in decisao or "," in decisao:
-                print("Digite um valor inteiro: ")
-                continue
-            elif "/" in decisao or "*" in decisao:
-                print("Digite um valor válido: ")
-                continue
-            elif any(char.isnumeric() for char in decisao):
-                decisao = round(float(decisao))
-                if decisao < 0 or decisao > 4:
-                    print("Digite um valor válido entre 1 e 4:")
-                    continue
-            else:
-                print("Digite um valor válido:")
-                continue
+
+    # Se for válido, sai do loop
             break
-        if decisao == 2:
-            import conversor
-            conversor.conversao()
-        if decisao == 4:
-            break
-    print("Obrigado pela atenção! tenha um ótimo dia.")
+        if decisao in acoes:
+            acoes[decisao]()  # Chama a função correspondente
+        else:
+            print("Opção inválida!")
             
 menu()

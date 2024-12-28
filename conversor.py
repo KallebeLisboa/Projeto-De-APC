@@ -12,23 +12,20 @@ def conversao():
     while True:
         oleo = input("Quantos mLs de óleo serão usados: ").strip()
         print("=-"*15)
-        if any(char.isalpha() for char in oleo):
-            print("Digite um valor válido sem letras:")
+        # Verifica se a entrada contém apenas números
+        if not oleo.isdigit():
+            print("Digite um valor válido: apenas números inteiros são permitidos.")
             continue
-        elif " " in oleo:
-            print("Digite um valor válido sem espaços:")
+
+    # Converte a entrada para número inteiro
+        oleo = float(oleo)
+
+    # Verifica se o número está no intervalo permitido
+        if oleo < 0:
+            print("Digite um número válido maior que 0: ")
             continue
-        elif "," in oleo:
-            print("Digite um valores decimais use ponto: ")
-            continue
-        elif any(char.isnumeric() for char in oleo):
-            oleo = round(float(oleo))
-            if oleo < 0 :
-                print("Digite um valor válido maior que 0:")
-                continue
-        else:
-            print("Digite um valor válido:")
-            continue
+
+    # Se for válido, sai do loop
         break
 
     #Cáuculo de água

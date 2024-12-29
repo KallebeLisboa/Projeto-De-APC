@@ -14,7 +14,7 @@ def menu():
     acoes = {
         1: informacoes.informacoes_sabao,
         2: conversor.conversao,
-        3: producao,
+        3: producao.producao_sabao,
         4: finalizar.finalizar_programa,
     }
 

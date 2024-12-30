@@ -37,7 +37,7 @@ def informacoes_sabao():
                 print("Você está no final da lista de informações!")
                 print("Escolha uma opção:")
                 print("1 - Voltar para os tópicos anteriores")
-                print("2 - Reiniciar do início")
+                print("2 - Reiniciar")
                 print("0 - Sair")
                 print("-" * 20)
 

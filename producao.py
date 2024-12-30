@@ -35,7 +35,7 @@ def producao_sabao():
                 print("Estes são os passos para produção de sabão")
                 print("Escolha uma opção:")
                 print("1 - Voltar para os tópicos anteriores")
-                print("2 - Reiniciar do início")
+                print("2 - Reiniciar")
                 print("0 - Sair")
                 print("-" * 20)
 

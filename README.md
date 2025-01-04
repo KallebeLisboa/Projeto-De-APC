@@ -17,7 +17,7 @@ Este projeto tem como meta concientizar sobre os prejuizos dos descarte irregula
 
 ### 🎥 Vídeo de Exemplo
 
-adicionar video
+https://github.com/user-attachments/assets/6b0470d9-ebb0-40c2-a86e-035cefa5a987
 
 ---
 

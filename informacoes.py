@@ -15,7 +15,7 @@ def informacoes_sabao():
         "Deterioração do solo: O descarte inadequado em aterros pode infiltrar no solo, contaminando o lençol freático e prejudicando a qualidade do solo,\ntornando-o inadequado para a agricultura.",
         "Geração de mau cheiro: O acúmulo de óleo pode gerar odores desagradáveis, contribuindo para problemas de saúde pública\ne diminuição da qualidade de vida nas proximidades.",
         "Para evitar que o óleo de cozinha usado seja lançado na rede de esgoto, diversas são as possibilidades de reciclagem do óleo de fritura,\nvelas aromáticasm e sabão são exemplos de usos para reciclagem.",
-        "Caso deseje apenas realizar o descarte de óleo, acesse o site abaixo e verifique o locald e descarte mais próximo: \nhttps://www.ecycle.com.br/postos/reciclagem.php",
+        "Caso deseje apenas realizar o descarte de óleo, acesse o site abaixo e verifique o local de descarte mais próximo: \nhttps://www.ecycle.com.br/postos/reciclagem.php",
         "Fontes:\n\nScheffer, D., & Simonetto, E. O. (2011). 'Descarte do Óleo de Cozinha: Uma Análise dos Procedimentos nas Maiores Cidades do Rio Grande do Sul.' UFPE\n\nSantos, E. J. D. (2015). 'Estudo do Impacto Ambiental Ocasionado pelo Descarte Inadequado do Óleo de Cozinha no Ensino de Ciências.' Universidade Tecnológica Federal do Paraná\n\nSa, E., & Silva, R. (2020). 'Impactos Ambientais Causados pelo Descarte Inadequado do Óleo de Cozinha' ResearchGate",
     ]
 
@@ -24,7 +24,7 @@ def informacoes_sabao():
         while True:
             seguir = input("opção: ").strip()
             if not seguir.isdigit():
-                print("Digite um valor válido: apenas números inteiros (0, 1 ou 2).")
+                print("Digite um valor válido: apenas números inteiros (\033[1;33m0\033[m, \033[1;31m1\033[m ou \033[1;32m2\033[m).")
                 continue
             seguir = int(seguir)
             if seguir == 2 and count < len(topicos):
@@ -37,9 +37,9 @@ def informacoes_sabao():
                 print("-" * 20)
                 print("Você está no final da lista de informações!")
                 print("Escolha uma opção:")
-                print("1 - Voltar para os tópicos anteriores")
-                print("2 - Reiniciar")
-                print("0 - Sair")
+                print("\033[0;31m1 - Voltar para os tópicos anteriores\033[m")
+                print("\033[0;32m2 - Reiniciar\033[m")
+                print("\033[0;33m0 - Sair\033[m")
                 print("-" * 20)
 
                 # Captura a escolha no menu final
@@ -72,12 +72,12 @@ def informacoes_sabao():
         print("-" * 20)
 
     count = 1
-    print("Pressione 1 para voltar, 2 para prosseguir, ou 0 para sair.\n")
+    print("Pressione \033[1;31m1 para voltar\033[m, \033[1;32m2 para prosseguir\033[m, ou \033[1;33m0 para sair\033[m.\n")
     while True:
         exibir_topico(topicos[count - 1])
         count = fluxo(count)
         if count == 0:
-            print("Você saiu das informações. Obrigado!")
+            print("\033[4;33mVocê saiu das informações. Obrigado!\033[m")
             print("-" * 20)
             break
 

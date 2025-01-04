@@ -21,7 +21,7 @@ def producao_sabao():
         while True:
             seguir = input("opção: ").strip()
             if not seguir.isdigit():
-                print("Digite um valor válido: apenas números inteiros (0, 1 ou 2).")
+                print("Digite um valor válido: apenas números inteiros (\033[1;33m0\033[m, \033[1;31m1\033[m ou \033[1;32m2\033[m).")
                 continue
             seguir = int(seguir)
             if seguir == 2 and count < len(topicos):
@@ -34,9 +34,9 @@ def producao_sabao():
                 print("-" * 20)
                 print("Estes são os passos para produção de sabão")
                 print("Escolha uma opção:")
-                print("1 - Voltar para os tópicos anteriores")
-                print("2 - Reiniciar")
-                print("0 - Sair")
+                print("\033[0;31m1 - Voltar para os tópicos anteriores\033[m")
+                print("\033[0;32m2 - Reiniciar\033[m")
+                print("\033[0;33m0 - Sair\033[m")
                 print("-" * 20)
 
                 # Captura a escolha no menu final
@@ -69,12 +69,12 @@ def producao_sabao():
         print("-" * 20)
 
     count = 1
-    print("Pressione 1 para voltar, 2 para prosseguir, ou 0 para sair.\n")
+    print("Pressione \033[1;31m1 para voltar\033[m, \033[1;32m2 para prosseguir\033[m, ou \033[1;33m0 para sair\033[m.\n")
     while True:
         exibir_topico(topicos[count - 1])
         count = fluxo(count)
         if count == 0:
-            print("Você saiu da produção. Obrigado!")
+            print("\033[4;33mVocê saiu da produção. Obrigado!\033[m")
             print("-" * 20)
             break
 

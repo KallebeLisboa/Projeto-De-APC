@@ -15,6 +15,7 @@ def informacoes_sabao():
         "Deterioração do solo: O descarte inadequado em aterros pode infiltrar no solo, contaminando o lençol freático e prejudicando a qualidade do solo,\ntornando-o inadequado para a agricultura.",
         "Geração de mau cheiro: O acúmulo de óleo pode gerar odores desagradáveis, contribuindo para problemas de saúde pública\ne diminuição da qualidade de vida nas proximidades.",
         "Para evitar que o óleo de cozinha usado seja lançado na rede de esgoto, diversas são as possibilidades de reciclagem do óleo de fritura,\nvelas aromáticasm e sabão são exemplos de usos para reciclagem.",
+        "Caso deseje apenas realizar o descarte de óleo, acesse o site abaixo e verifique o locald e descarte mais próximo: \nhttps://www.ecycle.com.br/postos/reciclagem.php",
         "Fontes:\n\nScheffer, D., & Simonetto, E. O. (2011). 'Descarte do Óleo de Cozinha: Uma Análise dos Procedimentos nas Maiores Cidades do Rio Grande do Sul.' UFPE\n\nSantos, E. J. D. (2015). 'Estudo do Impacto Ambiental Ocasionado pelo Descarte Inadequado do Óleo de Cozinha no Ensino de Ciências.' Universidade Tecnológica Federal do Paraná\n\nSa, E., & Silva, R. (2020). 'Impactos Ambientais Causados pelo Descarte Inadequado do Óleo de Cozinha' ResearchGate",
     ]
 

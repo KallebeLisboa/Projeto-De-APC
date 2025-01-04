@@ -2,7 +2,7 @@
 
 ### Descrição do Projeto
 
-Este projeto é um programa que possui informações sobre os prejuízos causados pelo descarte irregular de óleo no meio ambiente. Com isso, o programa também possui as informações para produção de sabão a partir desse óleo, além de um conversor para realizar a medida dos ingredientes.
+Este projeto tem como meta concientizar sobre os prejuizos dos descarte irregular do óleo e ensinar sobre a produção de sabão a paritir do óleo.
 ---
 ### ✅ Obejtivos
 - Aplicar os conhecimentos de Algoritmos e Programação de Computadores para a solução de problemas
@@ -17,7 +17,7 @@ Este projeto é um programa que possui informações sobre os prejuízos causado
 
 ### 🎥 Vídeo de Exemplo
 
-Adcionar vídeo
+adicionar video
 
 ---
 
@@ -56,8 +56,7 @@ Para acessar o código do projeto, faça o download do arquivo [**Projeto-de-APC
 ### 📖 Bibliografia 
 
 -   SABESP. Cada litro de óleo despejado no esgoto tem capacidade para poluir até 25 mil litros de água. São Paulo: SABESP, 2014.
-- Revista Planeta Cidade. Por não se misturar com a água, a presença de óleo nos rios cria uma barreira que dificulta a entrada de luz e a oxigenação da água. São Paulo: 
-- Revista Planeta Cidade, 2007.
+- Revista Planeta Cidade. Por não se misturar com a água, a presença de óleo nos rios cria uma barreira que dificulta a entrada de luz e a oxigenação da água. São Paulo: Revista Planeta Cidade, 2007.
 - BIOGAMA FUP. Projeto BIOGAMA FUP: conscientização sobre o reaproveitamento de óleo de cozinha residual. Brasília: Universidade de Brasília (UnB), s.d.
 - Scheffer, D., & Simonetto, E. O. (2011). "Descarte do Óleo de Cozinha: Uma Análise dos Procedimentos nas Maiores Cidades do Rio Grande do Sul." UFPE.
 - Santos, E. J. D. (2015). "Estudo do Impacto Ambiental Ocasionado pelo Descarte Inadequado do Óleo de Cozinha no Ensino de Ciências." Universidade Tecnológica Federal do Paraná.

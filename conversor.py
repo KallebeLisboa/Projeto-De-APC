@@ -37,9 +37,9 @@ def conversao():
     #Cáuculo de álcool
     alcool = ((oleo*alcool_padrao)/oleo_padrao)
     print("-"*15)
-    print(f"A quantidade de óleo é {oleo:.2f} mLs")
-    print(f"A quantidade de água é {agua:.2f} mLs")
-    print(f"A quantidade de soda cáustica é {soda:.2f}g")
-    print(f"A quantidade de álcool é {alcool:.2f} mLs")
+    print(f"A quantidade de óleo é \033[1;32m{oleo:.2f} mLs\033[m")
+    print(f"A quantidade de água é \033[1;32m{agua:.2f} mLs\033[m")
+    print(f"A quantidade de soda cáustica é \033[1;32m{soda:.2f}g\033[m")
+    print(f"A quantidade de álcool é \033[1;32m{alcool:.2f} mLs\033[m")
     print("-"*15)
 

@@ -22,8 +22,8 @@ def menu():
     while True:
         print("\nPressione:")
         print("[1] Informações sobre meio ambiente")
-        print("[2] Escolha do material produzido")
-        print("[3] Produção de sabão")
+        print("[2] Escolha do item produzido")
+        print("[3] Produção")
         print("[4] Finalizar")
         print()
 

@@ -5,11 +5,12 @@ def escolha_produto():
         with open("escolha.txt", "r") as arquivo:
             produto = arquivo.read()
     except FileNotFoundError:
-        print("Nenhuma escolha foi feita no submenu. Volte ao menu e escolha um produto primeiro.")    
+        print("Nenhuma escolha item foi feita. escolha qual item deseja produzir na opção 2.") 
     if produto == "sabao":
         producao_sabao()
     elif produto == "vela":
         producao_vela()
+    else: print("Nenhuma escolha item foi feita. escolha qual item deseja produzir na opção 2.")    
 
         
 # Função para validar navegação

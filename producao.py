@@ -12,7 +12,7 @@ def escolha_produto():
         producao_vela()
     elif produto == "sabonete":
         producao_sabonete()
-    else: print("Nenhuma escolha item foi feita. escolha qual item deseja produzir na opção 2.")    
+    else: print("Nenhuma escolha de item foi feita. Escolha qual item deseja produzir na opção 2.")    
 
         
 # Função para validar navegação
@@ -135,7 +135,7 @@ def producao_sabonete():
         "4. Mistura do óleo com a soda cáustica: Com cuidado, despeje a mistura de soda cáustica no óleo aquecido. \nMexa continuamente até que a mistura atinja a consistência de um mingau fino (isso pode levar de 15 a 30 minutos).",
         "5. Adicionar fragrâncias e corantes (opcional): Se desejar, adicione algumas gotas de óleo essencial ou corante natural e misture bem.",
         "6. Colocar nas formas: Despeje a mistura nas formas para sabão. Bata levemente as formas na superfície de trabalho para remover bolhas de ar.",
-        "7. Cura: Cubra as formas com um pano ou plástico e deixe o sabonete descansar em um local seco e arejado por 24-48 horas, \naté que esteja firme o suficiente para ser desenformado."
+        "7. Cura: Cubra as formas com um pano ou plástico e deixe o sabonete descansar em um local seco e arejado por 24-48 horas, \naté que esteja firme o suficiente para ser desenformado.",
         "8. Cura final: Após desenformar, deixe o sabonete curar por mais 4 a 6 semanas. Isso permite que a soda cáustica reaja completamente e o sabão se torne seguro para uso."
     ]
 

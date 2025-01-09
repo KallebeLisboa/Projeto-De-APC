@@ -64,5 +64,3 @@ Para acessar o código do projeto, faça o download do arquivo [**Projeto-de-APC
 - CAVITCH, S. M. The Soapmaker's Companion. 1. ed. Connecticut: Storey Publishing, 1997.
 - FAIOLA, A. Soap Crafting: Step-by-Step Techniques for Making 31 Unique Cold-Process Soaps. 1. ed. United States: Storey Publishing, 2013.
 - Faiola, Anne-Marie. Soap Queen. Disponível em: <https://www.soapqueen.com/>. Acesso em: 9 jan. 2025.
-- GAIL, A. Lovin' Soap. Disponível em: <https://www.lovinsoap.com/>. Acesso em: 9 jan. 2025.
-- INTERNATIONAL JOURNAL OF COSMETIC SCIENCE. International Journal of Cosmetic Science. Disponível em: <https://onlinelibrary.wiley.com/journal/14682494>. Acesso em: 9 jan. 2025.

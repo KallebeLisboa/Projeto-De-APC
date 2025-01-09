@@ -13,8 +13,8 @@ def menu():
     # Menu de opções
     acoes = {
         1: informacoes.informacoes_sabao,
-        2: conversor.conversao,
-        3: producao.producao_sabao,
+        2: conversor.escolha,
+        3: producao.escolha_produto,
         4: finalizar.finalizar_programa,
     }
 
@@ -22,8 +22,8 @@ def menu():
     while True:
         print("\nPressione:")
         print("[1] Informações sobre meio ambiente")
-        print("[2] Ingredientes")
-        print("[3] Produção de sabão")
+        print("[2] Escolha do item produzido")
+        print("[3] Produção")
         print("[4] Finalizar")
         print()
 
@@ -51,4 +51,6 @@ def menu():
         else:
             print("Opção inválida!")
             
-menu()
+# Protegendo a execução automática com if __name__ == "__main__"
+if __name__ == "__main__":
+    menu()

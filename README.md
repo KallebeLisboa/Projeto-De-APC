@@ -55,9 +55,14 @@ Para acessar o código do projeto, faça o download do arquivo [**Projeto-de-APC
 
 ### 📖 Bibliografia 
 
--   SABESP. Cada litro de óleo despejado no esgoto tem capacidade para poluir até 25 mil litros de água. São Paulo: SABESP, 2014.
+- SABESP. Cada litro de óleo despejado no esgoto tem capacidade para poluir até 25 mil litros de água. São Paulo: SABESP, 2014.
 - Revista Planeta Cidade. Por não se misturar com a água, a presença de óleo nos rios cria uma barreira que dificulta a entrada de luz e a oxigenação da água. São Paulo: Revista Planeta Cidade, 2007.
 - BIOGAMA FUP. Projeto BIOGAMA FUP: conscientização sobre o reaproveitamento de óleo de cozinha residual. Brasília: Universidade de Brasília (UnB), s.d.
 - Scheffer, D., & Simonetto, E. O. (2011). "Descarte do Óleo de Cozinha: Uma Análise dos Procedimentos nas Maiores Cidades do Rio Grande do Sul." UFPE.
 - Santos, E. J. D. (2015). "Estudo do Impacto Ambiental Ocasionado pelo Descarte Inadequado do Óleo de Cozinha no Ensino de Ciências." Universidade Tecnológica Federal do Paraná.
 - Sa, E., & Silva, R. (2020). "Impactos Ambientais Causados pelo Descarte Inadequado do Óleo de Cozinha." ResearchGate.
+- CAVITCH, S. M. The Soapmaker's Companion. 1. ed. Connecticut: Storey Publishing, 1997.
+- FAIOLA, A. Soap Crafting: Step-by-Step Techniques for Making 31 Unique Cold-Process Soaps. 1. ed. United States: Storey Publishing, 2013.
+- Faiola, Anne-Marie. Soap Queen. Disponível em: <https://www.soapqueen.com/>. Acesso em: 9 jan. 2025.
+- GAIL, A. Lovin' Soap. Disponível em: <https://www.lovinsoap.com/>. Acesso em: 9 jan. 2025.
+- INTERNATIONAL JOURNAL OF COSMETIC SCIENCE. International Journal of Cosmetic Science. Disponível em: <https://onlinelibrary.wiley.com/journal/14682494>. Acesso em: 9 jan. 2025.

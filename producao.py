@@ -10,6 +10,8 @@ def escolha_produto():
         producao_sabao()
     elif produto == "vela":
         producao_vela()
+    elif produto == "sabonete":
+        producao_sabonete()
     else: print("Nenhuma escolha item foi feita. escolha qual item deseja produzir na opção 2.")    
 
         
@@ -118,7 +120,34 @@ def producao_vela():
             print("-" * 20)
             break
 
+# Função para produção de sabonete
+def producao_sabonete():
+     # Título
+    print('-='*30)
+    print(" "*20, "Produção de sabonete")
+    print('-='*30)
 
+     # Tópicos de informações
+    topicos = [
+        "1. Preparação do ambiente: Certifique-se de estar em um local bem ventilado e livre de crianças e animais. Use os equipamentos de segurança.",
+        "2. Mistura da soda cáustica: Adicione cuidadosamente a soda cáustica à água destilada (nunca o contrário) e mexa até que esteja completamente dissolvida. \nA mistura vai esquentar, então tome cuidado.",
+        "3. Aquecimento do óleo: Em um recipiente separado, aqueça o óleo até atingir aproximadamente 40-50°C.",
+        "4. Mistura do óleo com a soda cáustica: Com cuidado, despeje a mistura de soda cáustica no óleo aquecido. \nMexa continuamente até que a mistura atinja a consistência de um mingau fino (isso pode levar de 15 a 30 minutos).",
+        "5. Adicionar fragrâncias e corantes (opcional): Se desejar, adicione algumas gotas de óleo essencial ou corante natural e misture bem.",
+        "6. Colocar nas formas: Despeje a mistura nas formas para sabão. Bata levemente as formas na superfície de trabalho para remover bolhas de ar.",
+        "7. Cura: Cubra as formas com um pano ou plástico e deixe o sabonete descansar em um local seco e arejado por 24-48 horas, \naté que esteja firme o suficiente para ser desenformado."
+        "8. Cura final: Após desenformar, deixe o sabonete curar por mais 4 a 6 semanas. Isso permite que a soda cáustica reaja completamente e o sabão se torne seguro para uso."
+    ]
+
+    count = 1
+    print("Pressione \033[1;31m1 para voltar\033[m, \033[1;32m2 para prosseguir\033[m, ou \033[1;33m0 para sair\033[m.\n")
+    while True:
+        exibir_topico(topicos[count - 1])
+        count = fluxo(count, topicos)
+        if count == 0:
+            print("\033[4;33mVocê saiu da produção de vela. Obrigado!\033[m")
+            print("-" * 20)
+            break
 
 # Protegendo a execução automática com if __name__ == "__main__"
 if __name__ == "__main__":

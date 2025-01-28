@@ -23,11 +23,17 @@ https://github.com/user-attachments/assets/6b0470d9-ebb0-40c2-a86e-035cefa5a987
 
 ### 🎲 Funcionalidades do projeto
 
+Terminal:
 - **informações**: Informações serão dadas, aperte 0 para sair da aba de informações, 1 para voltar na informação anterior e 2 para prosseguir para a informação seguinte.
 - **Conversor**: Coloque a quantidade de óleo disponível e o conversor calculará a quantidade dos materiais necessários utilizando regra de 3.
 - **Produção**: As etapas para a produção do sabão serão dadas. Aperte 0 para sair da aba de produção, 1 para voltar na informação anterior e 2 para prosseguir para a informação seguinte.
 - **Finalizar**: O programa será finalizado encerrando o projeto
 
+Interface gráfica:
+- **informações**: Informações serão dadas, aperte para visualizar as informações sobre meio ambiente para conscientização.
+- **Conversor**: Coloque a quantidade de óleo disponível na caixa de texto. Escolha o que deseja produzir e o conversor calculará a quantidade dos materiais necessários utilizando regra de 3.
+- **Passo a Passo**: As etapas para a produção do sabão serão dadas. Ao escolher o que será produzido e obter a conversão, clique no passo a passo e veja como fazer a receita.
+- **Finalizar**: O programa será finalizado encerrando o projeto
 ---
 
 ### 📁 Acesso ao projeto

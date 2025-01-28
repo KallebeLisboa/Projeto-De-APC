@@ -53,7 +53,7 @@ Para execução na interface gráfica:
 3. Execute o arquivo `interface.py` no terminal utilizando o comando:
 
    ```bash
-   python menu.py
+   python interface.py
    ```
 
 4. Coloque a quantidade de óleo disponível para reciclagem e escolha a opção desejada.

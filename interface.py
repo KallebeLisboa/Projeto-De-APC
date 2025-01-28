@@ -153,6 +153,7 @@ btn_passo_a_passo.pack_forget()
 btn_sair = ctk.CTkButton(frame_principal, text="Sair", font=("Arial", 14), command=root.quit)
 btn_sair.pack(pady=10)
 
+
 # Criando o frame do passo a passo
 frame_passo_a_passo = ctk.CTkFrame(root)
 
@@ -165,6 +166,60 @@ texto_passo.configure(state="disabled")
 
 btn_voltar = ctk.CTkButton(frame_passo_a_passo, text="Voltar", font=("Arial", 14), command=voltar_menu)
 btn_voltar.pack(pady=10)
+
+# Tópicos de informações
+topicos = [
+    "Você gosta de fritura? Pois é, elas são feitas com óleo de cozinha. E o que as pessoas fazem com o óleo que sobra na panela?",
+    "O descarte inadequado gera uma série de problemas ambientais.",
+    "Por não se misturar com a água, a presença de óleo nos rios cria uma barreira que dificulta a entrada de luz e a oxigenação da água,\ncomprometendo assim, a base da cadeia alimentar aquática e contribuindo para a ocorrência de enchentes e aquecimento do planeta\n(Revista Planeta Cidade, 2007).",
+    "Entupimento do sistema de esgoto: O óleo solidifica quando esfria, levando ao entupimento de canos e sistemas de esgoto,\no que pode causar inundações e outros problemas de infraestrutura.",
+    "Deterioração do solo: O descarte inadequado em aterros pode infiltrar no solo, contaminando o lençol freático e prejudicando a qualidade do solo,\ntornando-o inadequado para a agricultura.",
+    "Geração de mau cheiro: O acúmulo de óleo pode gerar odores desagradáveis, contribuindo para problemas de saúde pública\ne diminuição da qualidade de vida nas proximidades.",
+    "Para evitar que o óleo de cozinha usado seja lançado na rede de esgoto, diversas são as possibilidades de reciclagem do óleo de fritura,\nvelas aromáticas e sabão são exemplos de usos para reciclagem.",
+    "Caso deseje apenas realizar o descarte de óleo, acesse o site abaixo e verifique o local de descarte mais próximo: \nhttps://www.ecycle.com.br/postos/reciclagem.php",
+    "Fontes:\n\nScheffer, D., & Simonetto, E. O. (2011). 'Descarte do Óleo de Cozinha: Uma Análise dos Procedimentos nas Maiores Cidades do Rio Grande do Sul.' UFPE\n\nSantos, E. J. D. (2015). 'Estudo do Impacto Ambiental Ocasionado pelo Descarte Inadequado do Óleo de Cozinha no Ensino de Ciências.' Universidade Tecnológica Federal do Paraná\n\nSa, E., & Silva, R. (2020). 'Impactos Ambientais Causados pelo Descarte Inadequado do Óleo de Cozinha' ResearchGate",
+]
+
+# Função para exibir as informações gerais
+def mostrar_informacoes():
+    frame_principal.pack_forget()  # Esconde a tela principal
+    frame_informacoes.pack(fill="both", expand=True)  # Mostra a aba de informações gerais
+
+    # Atualiza o título
+    label_titulo_informacoes.configure(text="Informações Gerais sobre Reciclagem de Óleo")
+
+    # Atualiza o texto com os tópicos
+    texto_informacoes.configure(state="normal")
+    texto_informacoes.delete("1.0", "end")  # Limpa o texto da caixa
+    for topico in topicos:
+        texto_informacoes.insert("end", topico + "\n\n")  # Insere os tópicos um por um
+    texto_informacoes.configure(state="disabled")
+
+
+# Função para voltar ao menu principal
+def voltar_menu():
+    # Esconde qualquer frame que não seja o menu
+    # Esconde a aba do Passo a Passo
+    frame_informacoes.pack_forget()  # Esconde a aba de Informações Gerais
+    frame_principal.pack(fill="both", expand=True)  # Mostra a tela principal (menu)
+
+# Criando o frame de informações gerais
+frame_informacoes = ctk.CTkFrame(root)
+
+label_titulo_informacoes = ctk.CTkLabel(frame_informacoes, text="", font=("Arial", 16, "bold"))
+label_titulo_informacoes.pack(pady=10)
+
+texto_informacoes = ctk.CTkTextbox(frame_informacoes, font=("Arial", 12), wrap="word", height=300)
+texto_informacoes.pack(fill="both", expand=True, padx=10, pady=5)
+texto_informacoes.configure(state="disabled")
+
+btn_voltar_informacoes = ctk.CTkButton(frame_informacoes, text="Voltar", font=("Arial", 14), command=voltar_menu)
+btn_voltar_informacoes.pack(pady=10)
+
+# Criando o botão "Informações" na tela principal e centralizando-o
+btn_informacoes = ctk.CTkButton(frame_botoes, text="Informações", font=("Arial", 12), command=mostrar_informacoes)
+btn_informacoes.grid(row=1, column=0, columnspan=3, padx=5, pady=5)
+
 
 # Inicia a interface gráfica
 root.mainloop()

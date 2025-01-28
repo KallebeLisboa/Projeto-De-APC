@@ -37,7 +37,7 @@ Para acessar o código do projeto, faça o download do arquivo [**Projeto-de-APC
 ---
 
 ### 💻 Abrir e rodar o projeto
-
+Para execução no terminal: 
 1. Certifique-se de ter o Python 3 instalado em seu sistema.
 2. Execute o arquivo `menu.py` no terminal utilizando o comando:
 
@@ -47,11 +47,23 @@ Para acessar o código do projeto, faça o download do arquivo [**Projeto-de-APC
 
 3. Escolha a opção desejada do menu.
 
+Para execução na interface gráfica: 
+1. Certifique-se de ter o Python 3 instalado em seu sistema.
+2. 2. Instale a biblioteca `CustomTkinter` (Para Windows, será necessário intalar com o comando `pip install customtkinter` no terminal do windows).
+3. Execute o arquivo `interface.py` no terminal utilizando o comando:
+
+   ```bash
+   python menu.py
+   ```
+
+4. Coloque a quantidade de óleo disponível para reciclagem e escolha a opção desejada.
+5. Escolha a opção desejada do menu.
 ---
 
 ### ⚙️ Técnicas e tecnologias utilizadas
 
 - **Python 3**
+- **Biblioteca CustomTkinter para criação da interface gráfica.**
 
 ### 📖 Bibliografia 
 

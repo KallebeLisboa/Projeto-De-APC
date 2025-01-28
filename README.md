@@ -19,6 +19,10 @@ Este projeto tem como meta concientizar sobre os prejuizos dos descarte irregula
 Terminal:
 https://github.com/user-attachments/assets/6b0470d9-ebb0-40c2-a86e-035cefa5a987
 
+
+
+
+
 Interface gráfica:
 https://github.com/user-attachments/assets/7762b44f-a470-4533-8114-8739ec0af1a1
 

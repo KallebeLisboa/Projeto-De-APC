@@ -49,7 +49,7 @@ Para execução no terminal:
 
 Para execução na interface gráfica: 
 1. Certifique-se de ter o Python 3 instalado em seu sistema.
-2. 2. Instale a biblioteca `CustomTkinter` (Para Windows, será necessário intalar com o comando `pip install customtkinter` no terminal do windows).
+2. Instale a biblioteca `CustomTkinter` (Para Windows, será necessário intalar com o comando `pip install customtkinter` no terminal do windows).
 3. Execute o arquivo `interface.py` no terminal utilizando o comando:
 
    ```bash

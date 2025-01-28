@@ -150,8 +150,6 @@ btn_passo_a_passo = ctk.CTkButton(frame_principal, text="Ver Passo a Passo", fon
 btn_passo_a_passo.pack_forget()
 
 
-btn_sair = ctk.CTkButton(frame_principal, text="Sair", font=("Arial", 14), command=root.quit)
-btn_sair.pack(pady=10)
 
 
 # Criando o frame do passo a passo
@@ -217,8 +215,12 @@ btn_voltar_informacoes = ctk.CTkButton(frame_informacoes, text="Voltar", font=("
 btn_voltar_informacoes.pack(pady=10)
 
 # Criando o botão "Informações" na tela principal e centralizando-o
-btn_informacoes = ctk.CTkButton(frame_botoes, text="Informações", font=("Arial", 12), command=mostrar_informacoes)
-btn_informacoes.grid(row=1, column=0, columnspan=3, padx=5, pady=5)
+btn_informacoes = ctk.CTkButton(frame_principal, text="Informações", font=("Arial", 14), command=mostrar_informacoes)
+btn_informacoes.pack(pady=10)
+
+# Botão para finalizar o programa
+btn_sair = ctk.CTkButton(frame_principal, text="Sair", font=("Arial", 14), command=root.quit)
+btn_sair.pack(pady=10)
 
 
 # Inicia a interface gráfica
